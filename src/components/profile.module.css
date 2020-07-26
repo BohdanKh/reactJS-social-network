@@ -1,0 +1,17 @@
+.profile {
+    grid-area: c;
+    background-color: #0af;
+}
+
+.item {
+    color: #f00;
+}
+
+.subitem {
+    color: #060;
+    margin-left: 37px;
+}
+
+.active {
+    color: #0f0;
+}
