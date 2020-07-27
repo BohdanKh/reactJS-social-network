@@ -1,0 +1,12 @@
+.profile {
+    grid-area: c;
+    background-color: #0af;
+}
+
+.item {
+    color: #f00;
+}
+
+.active {
+    color: #0f0;
+}
