@@ -1,6 +1,5 @@
 import React from "react";
 import obRenamer from "./navbar.module.css";
-console.log(obRenamer);
 
 let Navbar = () => {
     return (

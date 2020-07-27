@@ -2,8 +2,6 @@ import React from 'react';
 import renamer from './myPosts.module.css';
 import Post from './post/post';
 
-console.log(renamer);
-
 let MyPosts = () => {
     return (
         <div className={renamer.item}>
@@ -11,10 +9,10 @@ let MyPosts = () => {
             <textarea />
             <input type="button" value="Send" />
             <div>
-                <Post />
-                <Post />
-                <Post />
-                <Post />
+                <Post message="I am exited" likes="14"/>
+                <Post message="I like donkeys" likes="15"/>
+                <Post message="Dog was met by me" likes="8"/>
+                <Post message="I dislike evil humans" likes="3"/>
             </div>
         </div>
 );

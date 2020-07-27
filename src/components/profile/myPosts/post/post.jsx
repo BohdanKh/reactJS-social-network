@@ -1,11 +1,18 @@
 import React from 'react';
 import renamer from './post.module.css';
+console.log(renamer);
 
-let Post = () => {
+let Post = (props) => {
     return (
             <div>
                 <div className={renamer.subitem}>
-                    It is post
+                    <span>{props.message}</span>
+                    <div>
+                        {console.log(props)}
+                        <span>likes: </span> 
+                        <span class={renamer.color_of_like}>{props.likes}</span>
+                        </div>
+                    <br/>
                 </div>
             </div>
     );
