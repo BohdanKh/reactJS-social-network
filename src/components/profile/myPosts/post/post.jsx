@@ -9,7 +9,7 @@ let Post = (props) => {
                     <span>{props.message}</span>
                     <div>
                         {console.log(props)}
-                        <span>likes: </span> 
+                        <span>like: </span>
                         <span class={renamer.color_of_like}>{props.likes}</span>
                         </div>
                     <br/>
