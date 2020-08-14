@@ -3,10 +3,10 @@
     background-color: #a22;
 }
 
-.item {
+.item a{
     color: #fff;
 }
 
-.item .active {
+.item .activeI{
     color: #000;
 }

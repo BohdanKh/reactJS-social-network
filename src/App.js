@@ -5,7 +5,7 @@ import Header from './components/header/header.jsx';
 import Navbar from './components/navbar/navbar.jsx';
 import Profile from './components/profile/profile';
 import Messages from "./components/messages/messages";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
     return (
